@@ -1,3 +1,4 @@
-def func_from_module_1(){
-  sh 'echo HELLO WELCOME TO DEVOPS TEAM'
+// vars/helloWorld.groovy
+def call() {
+    echo "Hello from the Shared Library!"
 }
